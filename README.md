@@ -12,7 +12,25 @@ GitHub Codespaces es como tener VS Code en tu navegador. ¡Así no tienes que in
 3. Haz clic en la pestaña "Codespaces"
 4. Clic en "Create codespace on main" 🆕
 
-¡Espera un momento mientras se crea tu espacio de trabajo!
+¡Espera un momento mientras se crea tu espacio de trabajo! El sistema:
+- Configurará automáticamente Python 3.8
+- Instalará todas las extensiones necesarias
+- Instalará los paquetes requeridos
+
+Si ves una notificación que dice "Container build completed", ¡significa que todo está listo!
+
+### ¿Problemas con Codespaces?
+Si el contenedor no se inicia correctamente:
+1. Cierra el Codespace (Click en menú ... -> Stop Current Codespace)
+2. Borra el Codespace desde GitHub
+3. Crea uno nuevo
+
+### Verificar que Todo Funciona
+Abre una terminal (Ctrl+ñ o View -> Terminal) y escribe:
+```bash
+python --version
+```
+Deberías ver: `Python 3.8.x`
 
 ## 🌱 Trabajar con Git
 
